@@ -20,6 +20,19 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 
 ## Overview
 
+Tasks: (write your name)
+- check HTML skeleton: 
+- check add any extra classes to elements and add any necessary divs:
+- add images and icons/images files to HTML:
+- add fonts:
+- make CSS vars:
+- make email input (HTML froms, before Subscribe button in Footer):
+
+
+Next week:
+- Layout
+- Finalise details of Mobile design
+
 ### The challenge
 
 Users should be able to:
