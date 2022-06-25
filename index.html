@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="stylesheet" href="./styles.css">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
@@ -16,118 +18,100 @@
 </head>
 <body>
   <main>
-  <botton class="btn">
-    Try it free
-  </botton>
-  
-<h1>
-  Build The Community Your Fans Will Love
-</h1>
-
-<div>
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion. 
-</div>
-
-<botton class="Get Started">
-  Get Started For Free
-</botton>
-
-<image>
-
-</image>
+    <button class="btn">
+      Try it free
+    </button>
+  <section> 
+    <h1>
+      Build The Community Your Fans Will Love
+    </h1>
+    <div>
+       <p>
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. 
+      </p>
+    </div>
+  </section>
+<button class="btn btn-get-started">
+Get Started For Free
+</button>
 
 <div class="stats">
-  1.4k+
+    <h2>1.4k+</h2>
+  <div class="stats stats-text">
+    <p>Communities Formed</p>
+  </div>
+  <div class="stats stats-numbers">
+    <h2>2.7m+</h2>
+  </div>
+  <div class="stats stats-text">
+    <p>Messages Sent</p>
+  </div>
 </div>
 
-<div class="stats text">
-  Communities Formed
-</div>
-
-<div class="stats">
-  2.7m+
-</div>
-
-<div class="stats text">
-  Messages Sent
-</div>
-
-<div class="Grow Together">
-<h1 class="t">
- Grow Together
-</h1>
-<p class="text">
+<section>
+  <h1>Grow Together</h1>
+  <p class="regular-text">
   Generate meaningful discussions with your audience and build a strong, loyal community. 
   Think of the insightful conversations you miss out on with a feedback form. 
-</p>
-</div>
-  
-<div class="Flowing Conv">
-  <h1 class="t">
-   Flowing Conversations
-  </h1>
-  <p class="text">
-    You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-  just-in-time loading for a more natural flow.
   </p>
-  </div>
+</section>
+  
+<section>
+  <h1>Flowing Conversations</h1>
+  <p class="regular-text">
+    You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.
+  </p>
+</section>
 
-  <div class="Your Users">
-    <h1 class="t">
-      Your Users
-    </h1>
-    <p class="text">
-      It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-  once signed in to your app, your users can start chatting immediately.
+<section>
+    <h1>Your Users</h1>
+    <p class="regular-text">
+      It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.
     </p>
-    </div>
-  
-<div class="Ready">
-  Ready To Build Your Community?
+</section>
+<div class="ready">
+  <h2>
+    Ready To Build Your Community?
+  </h2>
+  <button class="Get Started">
+    Get Started For Free
+  </button>
 </div>
-  
-<botton class="Get Started">
-  Get Started For Free
-</botton>
-  
 </main>
-  <footer>
-    <div class="No text">
-     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-  vestibulum a, ultrices quis sem. 
-    </div>
-
-    <div class="Phone"> 
-     Phone: +1-543-123-4567
-    </div>
-
-    <div class="email"> 
-        example@huddle.com
-    </div>
-   
-    <div class="Newsletter">
-      <h1 class="t">
-        Newsletter
-      </h1>
-      <p class="text">
-        To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-  send you spam or pass on your email addressI
+<!-- End of  main -->
+<!-- Footer begins -->
+<footer>
+  <div class="footer-container">
+    <div class="Newsletter"></div>
+    <h3>Newsletter</h3>
+      <p class="footer-text">
+        To recieve tips on how to grow your community, sign up to our weekly newsletter. We will never
+        send you spam or pass on your email address.
       </p>
-      </div>
-  
-  
-<input>
-
-<botton class="Subscribe"> 
-  Subscribe
-</botton>
+      <input type="email" id="user-email" class="input-email">
+      <button class="btn btn-subscribe">
+        Subscribe
+      </button>
+    </div>
+    <!-- Insert Huddle logo below -->
+    <img src="" alt="Huddle logo"> 
+    <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
+  vestibulum a, ultrices quis sem.
+    </p>  
+    <div class="contact-container">
+      <!-- Insert phone icon below -->
+      <img src="" alt="Phone icon">
+      <p class="contact-details">Phone: +1-543-123-4567</p>
+      <!-- Insert email icon below -->
+      <p class="contact-details">example@huddle.com</p>
+    </div>
+    <!-- Insert SoMe icons below -->
   
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by Alice, Jana and Myrna<.
     </p>
-
+  </div>
   </footer>
 </body>
 </html>
