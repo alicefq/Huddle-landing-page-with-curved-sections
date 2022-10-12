@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  margin: 0;
+  padding: 0;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.grow-together-container {
+  background-color: hsl(207, 100%, 98%);
+}
+.grow-together {
+  margin: 0;
+  padding: 0;
+}
+.your-users-container {
+  background-color: hsl(207, 100%, 98%);
+}
+.footer-container {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+}
+.bg-section {
+  width: 100%;
+}
