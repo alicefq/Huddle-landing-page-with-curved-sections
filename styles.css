@@ -1,22 +1,52 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
+
+/* ----------- */
+/* Buttons styling */
+/* ----------- */
+.btn-round {
+  border-radius: 2rem;
+  background-color: #ffff;
+  color: hsl(322, 100%, 66%);
+  border-color: hsl(322, 100%, 66%);
+  border-style: solid;
+  padding: 0.5rem 2rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 p {
   margin: 0;
   padding: 0;
 }
+/* ----------- */
+/* Headings styling */
+/* ----------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;}
+
 h3 {
   margin: 0;
   padding: 0;
 }
+/* ----------- */
+/* Header styling */
+/* ----------- */
 .header-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
 }
 
 .grow-together-container {
