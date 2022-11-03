@@ -22,19 +22,49 @@
 }
 
 p {
-  margin: 0;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   padding: 0;
+  text-align: center;
+  color: hsl(192, 100%, 9%);
 }
+img {
+  display: block;
+  margin: auto;
+}
+button {
+  display: block;
+  margin: auto;
+}
+.btn-get-started {
+  color:hsl(207, 100%, 98%);
+  background-color: hsl(322, 100%, 66%);
+  margin-bottom: 5rem;
+  padding: 3rem auto;
+}
+
 /* ----------- */
 /* Headings styling */
 /* ----------- */
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 700;}
+  font-weight: 700;
+  text-align: center;
+  color: hsl(192, 100%, 9%);
+}
 
 h3 {
   margin: 0;
   padding: 0;
+}
+h1 {
+    margin-top: 7rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 2rem;
 }
 /* ----------- */
 /* Header styling */
@@ -49,6 +79,15 @@ h3 {
   align-items: center;
 }
 
+/* ----------- */
+/* Build the Community section */
+/* ----------- */
+
+
+/* ----------- */
+/* Grow Together section */
+/* ----------- */
+
 .grow-together-container {
   background-color: hsl(207, 100%, 98%);
 }
@@ -56,13 +95,34 @@ h3 {
   margin: 0;
   padding: 0;
 }
+.bg-section {
+  width: 100%;
+}
+
+/* ----------- */
+/* Flowing Conversations section */
+/* ----------- */
+
+/* ----------- */
+/* Your users section */
+/* ----------- */
+
 .your-users-container {
   background-color: hsl(207, 100%, 98%);
 }
+
+/* ----------- */
+/* Ready to build section */
+/* ----------- */
+
+
+
+
+
+/* ----------- */
+/* Footer */
+/* ----------- */
 .footer-container {
   background-color: hsl(192, 100%, 9%);
   color: white;
-}
-.bg-section {
-  width: 100%;
 }
