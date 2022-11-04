@@ -29,6 +29,10 @@ p {
   padding: 0;
   text-align: center;
   color: hsl(192, 100%, 9%);
+  font-size: 16px;
+}
+.p-special {
+  margin-bottom: 0;
 }
 img {
   display: block;
@@ -125,4 +129,25 @@ h1 {
 .footer-container {
   background-color: hsl(192, 100%, 9%);
   color: white;
+}
+.footer-icon {
+  margin: 1rem;
+}
+.btn-subscribe {
+  margin: 0;
+}
+.footer-text {
+  text-align: left;
+  margin: 0;
+  color:hsl(207, 100%, 98%)
+}
+.footer-header {
+  text-align: left;
+  color: color: hsl(207, 100%, 98%);
+}
+.icons-container {
+  display: inline;
+}
+.contact-details {
+  color: hsl(207, 100%, 98%);
 }
