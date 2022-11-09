@@ -99,6 +99,15 @@ h1 {
 }
 
 /* ----------- */
+/* Stats section */
+/* ----------- */
+
+.stats-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----------- */
 /* Grow Together section */
 /* ----------- */
 
@@ -126,16 +135,9 @@ h1 {
 }
 
 /* ----------- */
-/* Ready to build section */
-/* ----------- */
-
-
-
-
-
-/* ----------- */
 /* Footer */
 /* ----------- */
+
 .footer-container {
   background-color: hsl(192, 100%, 9%);
   color: white;
@@ -193,4 +195,34 @@ h1 {
 }
 .attribution {
   color: hsl(207, 100%, 98%);3
+}
+
+/* ----------- */
+/* Media queries */
+/* ----------- */
+
+@media (min-width: 950px) {
+.regular-para {
+  margin-left: 25%;  
+  margin-right: 25%;
+  }
+.btn-get-started {
+  margin-bottom: 2rem;
+}
+.stats-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5em;
+    flex-direction: row;
+}
+.stats-container p {
+  margin-top: 2rem;
+  text-align: center;
+}
+.grow-together-container-1 {
+  float: right;
+}
+.grow-together-container-2 {
+  float: left;
+}
 }
