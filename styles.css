@@ -46,6 +46,9 @@ img {
   display: block;
   margin: auto;
 }
+.section-img {
+  width: 70%;
+}
 button {
   display: block;
   margin: auto;
@@ -73,10 +76,7 @@ h3 {
   padding: 0;
 }
 h1 {
-    margin-top: 7rem;
-    margin-left: 7rem;
-    margin-right: 7rem;
-    margin-bottom: 2rem;
+  margin: 7em 7em 2em 7em;
 }
 /* ----------- */
 /* Header styling */
@@ -219,10 +219,28 @@ h1 {
   margin-top: 2rem;
   text-align: center;
 }
-.grow-together-container-1 {
-  float: right;
+/* Rearrange components in each section */
+.grow-users-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.grow-together-container-2 {
-  float: left;
+.grow-users-text {
+  width: 50%;
+}
+.grow-users-heading {
+  order: 1;
+  text-align: left;
+  margin-left: 25%;
+  margin-top: 2em;
+}
+.grow-users-para {
+  order: 2;
+  text-align: left;
+}
+.grow-users-img {
+  order: 3;
+  width: 50%;
+
 }
 }
