@@ -8,6 +8,7 @@
 /* ----------- */
 /* Buttons styling */
 /* ----------- */
+
 .btn-round {
   border-radius: 2rem;
   background-color: #ffff;
@@ -46,7 +47,7 @@ img {
   display: block;
   margin: auto;
 }
-.section-img {
+.img-graphic {
   width: 70%;
 }
 button {
@@ -78,9 +79,11 @@ h3 {
 h1 {
   margin: 7em 7em 2em 7em;
 }
+
 /* ----------- */
 /* Header styling */
 /* ----------- */
+
 .header-container {
   display: flex;
   flex-direction: row;
@@ -94,6 +97,7 @@ h1 {
 /* ----------- */
 /* Build the Community section */
 /* ----------- */
+
 .ready-to-build {
   padding-bottom: 3em;
 }
@@ -121,10 +125,6 @@ h1 {
 .bg-section {
   width: 100%;
 }
-
-/* ----------- */
-/* Flowing Conversations section */
-/* ----------- */
 
 /* ----------- */
 /* Your users section */
@@ -207,8 +207,17 @@ h1 {
   margin-right: 25%;
   }
 .btn-get-started {
-  margin-bottom: 2rem;
+  margin-bottom: 4em;
+  padding: 7em auto;
 }
+
+/* .btn-get-started {
+  color: hsl(207, 100%, 98%);
+  background-color: hsl(322, 100%, 66%);
+  margin-bottom: 5rem;
+  padding: 3rem auto;
+} */
+/* Re-align statistics section */
 .stats-container {
     display: flex;
     justify-content: space-evenly;
@@ -216,31 +225,50 @@ h1 {
     flex-direction: row;
 }
 .stats-container p {
-  margin-top: 2rem;
+  margin-top: 1em;
   text-align: center;
 }
-/* Rearrange components in each section */
-.grow-users-container {
+.stats {
+  font-size: 2em;
+}
+/* Rearrange layout of heading, paragraph and images */
+.section-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.grow-users-text {
+.section-text {
   width: 50%;
 }
-.grow-users-heading {
+.section-heading {
   order: 1;
   text-align: left;
   margin-left: 25%;
   margin-top: 2em;
 }
-.grow-users-para {
+.section-para {
   order: 2;
   text-align: left;
 }
-.grow-users-img {
+.section-img {
   order: 3;
   width: 50%;
 
+}
+.flow-container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  padding: 5em 3em 3em 3em;
+}
+.flow-heading {
+  order: 1;
+  text-align: right;
+  margin-right: 15%;
+}
+.flow-para {
+  order: 2;
+  text-align: right;
+  margin-right: 15%;
 }
 }
