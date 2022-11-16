@@ -72,13 +72,13 @@ Get Started For Free
 <!-- -------- -->
 
 <section class="grow-together">
-  <picture>
-    <source media="(min-width:950px)" srcset="bg-section-top-desktop" sizes="">
-  </picture>
-  <img src="./images/bg-section-top-mobile-1.svg" class="bg-section" alt="">
+  <!-- Desktop size background -->
+  <img src="./images/bg-section-top-desktop-1.svg" class="bg-section-desktop" width="100%">
+  <!-- Mobile size background -->
+  <img src="./images/bg-section-top-mobile-1.svg" class="bg-section-mobile" width="100%">
 <div class="section-container grow-together-container">
   <img src="./images/illustration-grow-together.svg" class="img-graphic section-img" alt="graphic of person thinking of messages">
-<div class="section-text">
+<div class="section-text section-text-grow">
   <h1 class="section-heading">Grow Together</h1>
   <p class="regular-para p-special section-para">
   Generate meaningful discussions with your audience and build a strong, loyal community. 
@@ -86,15 +86,17 @@ Get Started For Free
   </p>
   </div>
   </div>
-  <img src="./images/bg-section-bottom-mobile-1.svg" class="bg-section"
-  alt="">
+  <!-- Desktop size background image -->
+  <img src="./images/bg-section-bottom-desktop-1.svg" width="100%" class="bg-section-desktop">
+  <!-- Mobile size background image -->
+  <img src="./images/bg-section-bottom-mobile-1.svg" width="100%" class="bg-section-mobile">
 </section>
 <!-- -------- -->
 <!-- Flowing conversations section -->
 <!-- -------- -->
 <section>
   <div class="flow-container">
-  <img src="./images/illustration-flowing-conversation.svg" alt="people talking around a table" class="section-img img-graphic">
+  <img src="./images/illustration-flowing-conversation.svg" alt="people talking around a table" class="section-img img-graphic img-flowing">
   <div class="section-text">
   <h1 class="flow-heading">Flowing Conversations</h1>
   <p class="flow-para regular-text">
@@ -107,7 +109,10 @@ Get Started For Free
 <!-- Your Users section -->
 <!-- -------- -->
 <section class="your-users">
-  <img src="./images/bg-section-top-mobile-2.svg" class="bg-section" alt="">
+  <!-- Desktop size background image -->
+  <img src="./images/bg-section-top-desktop-2.svg" width="100%" class="bg-section-desktop">
+  <!-- Mobile size background image -->
+  <img src="./images/bg-section-top-mobile-2.svg" width="100%" class="bg-section-mobile">
   <div class="your-users-container section-container">
     <img src="./images/illustration-your-users.svg" alt="people holding message boards" class="img-graphic section-img">
     <div class="section-text">
@@ -117,8 +122,10 @@ Get Started For Free
     </p>
     </div>
     </div>
-    <img src="./images/bg-section-bottom-mobile-2.svg" class="bg-section" alt="">
-    
+    <!-- Desktop size background image -->
+    <img src="./images/bg-section-bottom-desktop-2.svg" class="bg-section-desktop" width="100%">
+    <!-- Mobile size background image -->
+    <img src="./images/bg-section-bottom-mobile-2.svg" class="bg-section-mobile" width="100%">
 </section>
 <div class="ready">
   <h2 class="ready-to-build">
@@ -129,20 +136,27 @@ Get Started For Free
   </button>
 </div>
 </main>
+
 <!-- -------- -->
 <!-- End of main, Footer begins -->
 <!-- -------- -->
-<img src="./images/bg-footer-top-mobile.svg" alt="" class="bg-section">
+
+<!-- Desktop size background image -->
+<img src="./images/bg-footer-top-desktop.svg" width="100%" class="bg-section-desktop">
+<!-- Mobile esize background image -->
+<img src="./images/bg-footer-top-mobile.svg" width="100%" class="bg-section-mobile">
 <footer class="footer-container">
     <h3 class="footer-header">Newsletter</h3>
       <p class="footer-text">
         To recieve tips on how to grow your community, sign up to our weekly newsletter. We will never
         send you spam or pass on your email address.
       </p>
-      <input type="email" id="user-email" class="input-email">
+      <div class="subscribe-container">
+      <input type="email" id="user-email" class="input-email"></br>
       <button class="btn-square btn-subscribe">
         Subscribe
       </button>
+      </div>
     
     <img src="./images/logo.svg" class="footer-logo" alt="Huddle logo"> <img src="./images/" alt="">
     <p class="footer-text footer-text-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
@@ -156,10 +170,9 @@ Get Started For Free
       <img src="./images/icon-email.svg" alt="email icon" class="footer-icon">
       <p class="contact-details">example@huddle.com</p>
     </div>
-    <!-- Can't find SoMe icons to insert below? Maybe we have to find them ourselves? -->
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by Alice, Jana and Myrna
+      Coded by Alice.
     </p>
   </footer>
 </body>

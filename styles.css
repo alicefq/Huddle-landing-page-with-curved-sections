@@ -122,8 +122,16 @@ h1 {
   margin: 0;
   padding: 0;
 }
-.bg-section {
-  width: 100%;
+.section-text-grow {
+  padding-bottom: 3em;
+}
+
+/* ----------- */
+/* Flowing conversations section */
+/* ----------- */
+
+.img-flowing {
+  padding-top: 5em;
 }
 
 /* ----------- */
@@ -132,6 +140,10 @@ h1 {
 
 .your-users-container {
   background-color: hsl(207, 100%, 98%);
+  padding-bottom: 3em;
+}
+.ready-to-build {
+  padding-top: 3em;
 }
 
 /* ----------- */
@@ -158,6 +170,7 @@ h1 {
   margin: 2em 0;;
   color:hsl(207, 100%, 98%);
   line-height: 1.5;
+  width: 40%;
 }
 .input-email {
   width: 100%;
@@ -181,6 +194,7 @@ h1 {
 }
 .footer-text-lorem {
   margin-top: 1em;
+  width: 40%;
 }
 .footer-icon {
   margin: 0;
@@ -197,11 +211,39 @@ h1 {
   color: hsl(207, 100%, 98%);3
 }
 
+
 /* ----------- */
 /* Media queries */
 /* ----------- */
 
+/* Hides mobile desktop size images below 950px */
+
+@media (max-width: 949px) {
+  .bg-section-desktop {
+    display: none;
+  }
+}
+@media (min-width: 650px) {
+  .input-email {
+    width: 50%;
+  }
+  .subscribe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+  }
+  .btn-subscribe {
+    float: left;
+    display: inline-block;
+  }
+}
 @media (min-width: 950px) {
+/* Hide mobile size background images */
+.bg-section-mobile {
+    display: none;
+  }
 .regular-para {
   margin-left: 25%;  
   margin-right: 25%;
@@ -210,13 +252,6 @@ h1 {
   margin-bottom: 4em;
   padding: 7em auto;
 }
-
-/* .btn-get-started {
-  color: hsl(207, 100%, 98%);
-  background-color: hsl(322, 100%, 66%);
-  margin-bottom: 5rem;
-  padding: 3rem auto;
-} */
 /* Re-align statistics section */
 .stats-container {
     display: flex;
