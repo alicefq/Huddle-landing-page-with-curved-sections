@@ -4,6 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="stylesheet" href="./styles.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
+    rel="stylesheet">
+<!-- Icons -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
@@ -15,52 +22,157 @@
   </style>
 </head>
 <body>
-  Try it free
+<!-- -------- -->
+<!-- Header -->
+<!-- -------- -->
+  <main>
+    <div class="header-container">
+      <img src="./images/logo.svg" width="170px" alt="Huddle logo">
+    <button class="btn-round btn-try-it-free">
+      Try it Free
+    </button>
+    </div>
+<!-- -------- -->
+<!-- Build the Community section -->
+<!-- -------- -->
+  <section> 
+    <h1>
+      Build The Community Your Fans Will Love
+    </h1>
+    <div>
+        <p class="regular-para">
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. 
+      </p>
+    </div>
+  </section>
+<button class="btn-round btn-get-started">
+Get Started For Free
+</button>
 
-  Build The Community Your Fans Will Love
+<!-- -------- -->
+<!-- Statistics section -->
+<!-- -------- -->
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion. 
+<img src="./images/screen-mockups.svg" alt="Image of browser windows" width="70%">
+<div class="stats-container">
+  <div class="stats-communities">
+    <img src="./images/icon-communities.svg" alt="Icon showing people">
+    <h2 class="stats">1.4k+</h2>
+      <p>Communities Formed</p>
+  </div>
+  <div class="stats-messages">
+    <img src="./images/icon-messages.svg" alt="messaging icon">
+    <h2 class="stats">2.7m+</h2>
+    <p>Messages Sent</p>
+  </div>
+</div>
 
-  Get Started For Free
+<!-- -------- -->
+<!-- Grow together section -->
+<!-- -------- -->
 
-  1.4k+
-  Communities Formed
-
-  2.7m+
-  Messages Sent
-
-  Grow Together
+<section class="grow-together">
+  <!-- Desktop size background -->
+  <img src="./images/bg-section-top-desktop-1.svg" class="bg-section-desktop" width="100%">
+  <!-- Mobile size background -->
+  <img src="./images/bg-section-top-mobile-1.svg" class="bg-section-mobile" width="100%">
+<div class="section-container grow-together-container">
+  <img src="./images/illustration-grow-together.svg" class="img-graphic section-img" alt="graphic of person thinking of messages">
+<div class="section-text section-text-grow">
+  <h1 class="section-heading">Grow Together</h1>
+  <p class="regular-para p-special section-para">
   Generate meaningful discussions with your audience and build a strong, loyal community. 
   Think of the insightful conversations you miss out on with a feedback form. 
+  </p>
+  </div>
+  </div>
+  <!-- Desktop size background image -->
+  <img src="./images/bg-section-bottom-desktop-1.svg" width="100%" class="bg-section-desktop">
+  <!-- Mobile size background image -->
+  <img src="./images/bg-section-bottom-mobile-1.svg" width="100%" class="bg-section-mobile">
+</section>
+<!-- -------- -->
+<!-- Flowing conversations section -->
+<!-- -------- -->
+<section>
+  <div class="flow-container">
+  <img src="./images/illustration-flowing-conversation.svg" alt="people talking around a table" class="section-img img-graphic img-flowing">
+  <div class="section-text">
+  <h1 class="flow-heading">Flowing Conversations</h1>
+  <p class="flow-para regular-text">
+    You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.
+  </p>
+  </div>
+  </div>
+</section>
+<!-- -------- -->
+<!-- Your Users section -->
+<!-- -------- -->
+<section class="your-users">
+  <!-- Desktop size background image -->
+  <img src="./images/bg-section-top-desktop-2.svg" width="100%" class="bg-section-desktop">
+  <!-- Mobile size background image -->
+  <img src="./images/bg-section-top-mobile-2.svg" width="100%" class="bg-section-mobile">
+  <div class="your-users-container section-container">
+    <img src="./images/illustration-your-users.svg" alt="people holding message boards" class="img-graphic section-img">
+    <div class="section-text">
+    <h1 class="section-heading">Your Users</h1>
+    <p class="regular-para p-special section-para">
+      It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.
+    </p>
+    </div>
+    </div>
+    <!-- Desktop size background image -->
+    <img src="./images/bg-section-bottom-desktop-2.svg" class="bg-section-desktop" width="100%">
+    <!-- Mobile size background image -->
+    <img src="./images/bg-section-bottom-mobile-2.svg" class="bg-section-mobile" width="100%">
+</section>
+<div class="ready">
+  <h2 class="ready-to-build">
+    Ready To Build Your Community?
+  </h2>
+  <button class="btn-round btn-get-started">
+    Get Started For Free
+  </button>
+</div>
+</main>
 
-  Flowing Conversations
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-  just-in-time loading for a more natural flow.
+<!-- -------- -->
+<!-- End of main, Footer begins -->
+<!-- -------- -->
 
-  Your Users
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-  once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+<!-- Desktop size background image -->
+<img src="./images/bg-footer-top-desktop.svg" width="100%" class="bg-section-desktop">
+<!-- Mobile esize background image -->
+<img src="./images/bg-footer-top-mobile.svg" width="100%" class="bg-section-mobile">
+<footer class="footer-container">
+    <h3 class="footer-header">Newsletter</h3>
+      <p class="footer-text">
+        To recieve tips on how to grow your community, sign up to our weekly newsletter. We will never
+        send you spam or pass on your email address.
+      </p>
+      <div class="subscribe-container">
+      <input type="email" id="user-email" class="input-email"></br>
+      <button class="btn-square btn-subscribe">
+        Subscribe
+      </button>
+      </div>
+    
+    <img src="./images/logo.svg" class="footer-logo" alt="Huddle logo"> <img src="./images/" alt="">
+    <p class="footer-text footer-text-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
   vestibulum a, ultrices quis sem.
-  
-  Phone: +1-543-123-4567
-  example@huddle.com
-
-  Newsletter
-  To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-  send you spam or pass on your email address
-
-  Subscribe
-
-  <footer>
+    </p>  
+    <div class="icons-container">
+      <!-- Phone -->
+      <img src="./images/icon-phone.svg" class="footer-icon" alt="Phone icon">
+      <p class="contact-details">Phone: +1-543-123-4567</p><br>
+      <!-- Email -->
+      <img src="./images/icon-email.svg" alt="email icon" class="footer-icon">
+      <p class="contact-details">example@huddle.com</p>
+    </div>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by Alice.
     </p>
   </footer>
 </body>
